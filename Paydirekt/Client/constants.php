@@ -39,7 +39,7 @@ if($_WS == 'live') {
     	const API_SECRET        = 'GJlN718sQxN1unxbLWHVlcf0FgXw2kMyfRwD0mgTRME=';
         const URL_TOKEN_OBTAIN  = '/api/merchantintegration/v1/token/obtain';
         const URL_CHECKOUT      = '/api/checkout/v1/checkouts';
-		const URL_RESPONSE      = 'http://yakstore.de/aaa/beispiel_response.php';
+		const URL_RESPONSE      = 'https://deineUrl/Paydirekt/beispiel_response.php';
 		const ORDER_NOTE    	= 'Deine Firma sagt: Vielen Dank :)';
  
     }
