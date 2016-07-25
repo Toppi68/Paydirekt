@@ -7,7 +7,7 @@
  * @autor Michael Töpfer
  * @license MIT
  * 
-\*============================================================================*/
+ */
 
 use \Paydirekt\Client\payDirekt;
 use \Paydirekt\Client\Utility\utils;
