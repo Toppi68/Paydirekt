@@ -50,9 +50,7 @@ $order->Address->setZip(28195);
 $order->Address->setCity('Bremen');
 $order->Address->setStreet('Am Brill');
 $order->Address->setStreetNr('1-3');
-if($re['adresse']['firmenname']){
-    $order->Address->setCompany('Sparkasse Bremen AG');
-}
+$order->Address->setCompany('Sparkasse Bremen AG');
 
 //Rechnungposten zur Info als Item übergeben
 $item = $clsPD->getItem();
