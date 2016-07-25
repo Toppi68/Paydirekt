@@ -1,7 +1,7 @@
 # Paydirekt
 Paydirekt PHP implementation
 
-## Aktuell Unterstüzte Geschäftsvorfalle
+## Aktuell unterstüzte Geschäftsvorfalle
 * Order DIRECT_SALE, Request Checkout.
 
 ## QUICKSTART
