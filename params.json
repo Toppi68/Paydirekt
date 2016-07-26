@@ -1,0 +1,6 @@
+{
+  "name": "Paydirekt",
+  "tagline": "Paydirekt PHP implementation",
+  "body": "# Paydirekt\r\nPaydirekt PHP implementation\r\n\r\n## Aktuell unterstüzte Geschäftsvorfalle\r\n* Order DIRECT_SALE, Request Checkout.\r\n\r\n## QUICKSTART\r\n* /Paydirekt/constants.php anpassen.\r\n* beispiel_request.php aufrufen.\r\n\r\n## Anforderungen\r\n* PHP 5.5 oder höher\r\n* mcrypt_create_iv() oder openssl_random_pseudo_bytes() oder random_bytes() \r\n* Curl()\r\n\r\n## Empfehlung\r\n* Wenn PHP 5.x, https://github.com/paragonie/random_compat für random_bytes() installieren.\r\n* Ab PHP 7.0 enthalten \r\n\r\n## License\r\n* MIT\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
