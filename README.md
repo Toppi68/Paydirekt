@@ -21,5 +21,5 @@ Paydirekt PHP implementation
 * MIT
 *
 
-## Mirror
+## See also
 https://toppi68.github.io/Paydirekt/
