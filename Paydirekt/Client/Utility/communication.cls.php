@@ -154,9 +154,7 @@ class communication extends responseMessages {
         curl_setopt($request, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($request, CURLOPT_SSL_VERIFYPEER, true);
         curl_setopt($request, CURLOPT_SSL_VERIFYHOST, 2);
-		if(file_exists(_INCLUDEPATH.'/Cert/paydirekt.de.pem')){
-			curl_setopt($request, CURLOPT_CAINFO, _INCLUDEPATH.'/Cert/paydirekt.de.pem');
-		}
+
         if($arrHeader) {
             curl_setopt($request, CURLOPT_HTTPHEADER, $arrHeader);
         }
