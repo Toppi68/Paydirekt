@@ -1,5 +1,5 @@
 # Paydirekt
-Paydirekt PHP implementation basierend auf paydirekt-php von David Orlea 
+Paydirekt PHP implementation basierend auf paydirekt-php von David Orlea
 https://github.com/paydirekt/paydirekt-php
 
 ## Aktuell unterstüzte Geschäftsvorfalle
