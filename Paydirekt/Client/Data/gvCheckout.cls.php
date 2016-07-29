@@ -38,8 +38,9 @@ class gvCheckout extends gvBasis implements interfaceGv {
      * @return array
      */
     public function send() {
-        return parent::sendGV($this);
-		session::unsetCheckout($this->CheckoutId); 
+        $req = parent::sendGV($this);
+	session::unsetCheckout($this->CheckoutId);
+	return $req;
     } 
 }
 ?>
