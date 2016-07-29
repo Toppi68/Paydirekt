@@ -43,7 +43,7 @@ class session {
     
     /**
      * Speichert einen Paydirekt Token.
-     * Wird erstellt in \Paydirekt\Client\Utility\com
+     * Wird erstellt in \Paydirekt\Client\Utility\communication
      * 
      * @param array $token
      * @return void
