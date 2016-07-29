@@ -90,6 +90,8 @@ class session {
     
     /**
      * Einträge via CheckoutId löschen
+     * @param string $checkoutId
+     * @return void
      */
      public static function unsetCheckout($checkoutId) {
          foreach ($_SESSION['payDirekt']['checkouts'] as $key => $val) {
