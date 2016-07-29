@@ -1,5 +1,6 @@
 # Paydirekt
-Paydirekt PHP implementation basierend auf paydirekt-php von David Orlea https://github.com/paydirekt/paydirekt-php
+Paydirekt PHP implementation basierend auf paydirekt-php von David Orlea 
+https://github.com/paydirekt/paydirekt-php
 
 ## Aktuell unterstüzte Geschäftsvorfalle
 * Order DIRECT_SALE, Request Checkout.
