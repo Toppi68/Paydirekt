@@ -3,6 +3,9 @@
  * Fragt einen Token für die Auth. 
  * bei Übertragungen an Paydirekt an.
  * 
+ * Basierend auf paydirekt-php von David Orlea
+ * https://github.com/paydirekt/paydirekt-php
+ * 
  * @autor Michael Töpfer
  * @license MIT
  */
